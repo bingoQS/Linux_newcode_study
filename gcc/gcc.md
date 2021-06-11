@@ -47,7 +47,7 @@ gcc/g++ -c add.c subtract.c -I ../include
 3. 使用 ```ar```命令打包
 
 ```bash
-ar rcs rcs libcalc.a add.o subtruct.o
+ar rcs libcalc.a add.o subtruct.o
 mv libcalc.a ../lib
 ```
 
